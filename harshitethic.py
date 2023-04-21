@@ -7,7 +7,7 @@ import openai
 #OpenAI API key
 aienv = os.getenv('OPENAI_KEY')
 if aienv == None:
-    openai.api_key = "ENTER YOUR API KEY HERE"
+    openai.api_key = "Esk-O8aG57N0YMpbJ2ACYC3DT3BlbkFJ9kNrgulZDSLEQlSvvOO3"
 else:
     openai.api_key = aienv
 print(aienv)
@@ -15,7 +15,7 @@ print(aienv)
 #Telegram bot key
 tgenv = os.getenv('TELEGRAM_KEY')
 if tgenv == None:
-    tgkey = "ENTER YOUR TELEGRAM TOKEN HERE"
+    tgkey = "5834909334:AAH4Fa5NRYWMg3pr-uyDw00dqpYVEX80lzo"
 else:
     tgkey = tgenv
 print(tgenv)
@@ -187,8 +187,8 @@ def wait(bot, update, botname, username, new):
                 cache = None
                 qcache = None
                 user = ""
-                username = 'harshitethic_bot'
-                botname = 'Harshit Ethic'
+                username = 'InvestPro_Bot'
+                botname = 'InvestProBot'
                 update.message.reply_text('Timer has run down, bot has been reset to defaults.')
                 running = False
     else:
